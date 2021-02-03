@@ -1,6 +1,6 @@
-My second RShiny Project
+# Scheduled_Price Tracker 
 
-This R Shiny App is very similar to the one in the "Price Tracker" repository (also uploaded here on github).
+This is my second R Shiny project - The app is very similar to the one in the "Price Tracker" repository (also uploaded here on github).
 
 Difference: User can only plot the prices of two apple products. The prices are extracted using Windows Task Scheduler and storing the prices in a remote database. 
 
