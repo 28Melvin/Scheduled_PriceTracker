@@ -302,11 +302,11 @@ saveData <- function(data){
   
   #connect to database
   
-  db <- dbConnect(MySQL(), dbname = "web140_db2",  
-                  host = "server26.webgo24.de",  
-                  port = as.integer("3306"), 
-                  user = "web140",  
-                  password = "Target48!")
+  db <- dbConnect(MySQL(), dbname = "",  
+                  host = "",  
+                  port = as.integer("XXXX"), 
+                  user = "",  
+                  password = "")
 
   #######################################################################################
   
