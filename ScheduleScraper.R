@@ -98,12 +98,12 @@ table1 <- "ScheduledTracker"
 saveData <- function(data){
   
   #connect to database
+  db <- dbConnect(MySQL(), dbname = Sys.getenv("databaseName1"), 
+                  host = Sys.getenv("host1"),  
+                  port = as.integer(Sys.getenv("port1")), 
+                  user =  Sys.getenv("user1"), 
+                  password = Sys.getenv("password1")) 
   
-  db <- dbConnect(MySQL(), dbname = "web140_db2",  
-                  host = "server26.webgo24.de",  
-                  port = as.integer("3306"), 
-                  user = "web140",  
-                  password = "Target48!")
 
   #######################################################################################
   
