@@ -302,11 +302,12 @@ saveData <- function(data){
   
   #connect to database
   
-  db <- dbConnect(MySQL(), dbname = "",  
-                  host = "",  
-                  port = as.integer("XXXX"), 
-                  user = "",  
-                  password = "")
+   db <- dbConnect(MySQL(), dbname = Sys.getenv("databaseName1"), 
+                  host = Sys.getenv("host1"),  
+                  port = as.integer(Sys.getenv("port1")), 
+                  user =  Sys.getenv("user1"), 
+                  password = Sys.getenv("password1")) 
+ 
 
   #######################################################################################
   
